@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/upg1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg1_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost1" />
+
+        <TextView
+            android:id="@+id/upg1_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_clicks1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg2_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost2" />
+
+        <TextView
+            android:id="@+id/upg2_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg3_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost3" />
+
+        <TextView
+            android:id="@+id/upg3_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg4_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg4_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost4" />
+
+        <TextView
+            android:id="@+id/upg4_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg5_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg5_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost5" />
+
+        <TextView
+            android:id="@+id/upg5_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg6_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg6_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost6" />
+
+        <TextView
+            android:id="@+id/upg6_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upg7_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_upg_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upg7_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/upg_cost7"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/upg7_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upg_count_clicks_for_click7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clicks_count_upg_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/back_to_main_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:text="@string/back_button_text"
+            android:textSize="@dimen/default_text_size" />
+    </LinearLayout>
+</LinearLayout>
